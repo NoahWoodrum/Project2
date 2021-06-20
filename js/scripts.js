@@ -38,7 +38,7 @@ $(document).ready(function() {
   }
   else {
 
-    $("#basics").show();
+    $("#Basics").show();
   }
   })
 })
