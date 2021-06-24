@@ -1,6 +1,13 @@
 $(document).ready(function() {
   $("#languageForm").submit(function(event) {
   event.preventDefault();
+
+    $('#ruby').hide();
+    $('#c').hide();
+    $('#javascript').hide();
+    $('#Basics').hide();
+
+
   const question1 = $("input#question1").val();
   const question2 = $("input#question2").val();
   const question3 = $("input#question3").val();
